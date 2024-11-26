@@ -43,9 +43,6 @@ void MainWindow::remind()
     QMessageBox::information(this, "Remind You", "You haven't did anything useful still!!! Come On!!!");
 }
 
-
-
-
 void MainWindow::on_actionNew_Task_triggered()
 {
     DialogTask *dt = new DialogTask(this);
